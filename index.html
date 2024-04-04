@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">  
+  <title>Crypto to Fiat Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <div class="con">
+    <div><h2>CryptoCurrency To FiatCurrency Converter</h2></div>
+  <div class="currencies">
+    <div class="wrapper wrapper1">
+      <div class="select-btn select-btn1">
+        <span>Select Crypto</span>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <div class="content content1">
+        <div class="search search1">
+          <i class="uil uil-search"></i>
+          <input class="input1" spellcheck="false" type="text" placeholder="Search">
+        </div>
+        <ul class="options options1"></ul>
+      </div>
+    </div>
+
+    <div class="wrapper wrapper2">
+      <div class="select-btn select-btn2">
+        <span>Select Fiat</span>
+        <i class="uil uil-angle-down"></i>
+      </div>
+      <div class="content content2">
+        <div class="search search2">
+          <i class="uil uil-search"></i>
+          <input class="input2" spellcheck="false" type="text" placeholder="Search">
+        </div>
+        <ul class="options options2"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="converter">
+    <input type="number" id="amount" placeholder="Enter amount">
+    <button id="convertBtn">Convert</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
