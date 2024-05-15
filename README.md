@@ -2,6 +2,8 @@
 
 This is a web application for converting cryptocurrency to fiat currency. It allows users to select a cryptocurrency, select a fiat currency, enter an amount of cryptocurrency, and then convert it to the equivalent amount in the selected fiat currency.
 
+![cryptotofiatconverter-homepage](https://github.com/gowthamnatarajan03/Cryptocurrency-to-Fiatcurrency-Converter/assets/165258291/d6e8e07f-065e-4893-95b0-3dafbf81a277)
+
 ## Features
 - Select from a variety of cryptocurrencies and fiat currencies.
 - Real-time conversion rates fetched from reliable APIs.
